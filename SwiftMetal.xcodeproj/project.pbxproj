@@ -6,7 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8AE90ED52DA520DB00242CE4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 8AE90ED42DA520D300242CE4 /* LICENSE */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		8AE90ED22DA519EF00242CE4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8AE90ED42DA520D300242CE4 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8AF54E802D824B7D009358CB /* SwiftMetal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMetal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +38,8 @@
 		8AF54E772D824B7D009358CB = {
 			isa = PBXGroup;
 			children = (
+				8AE90ED42DA520D300242CE4 /* LICENSE */,
+				8AE90ED22DA519EF00242CE4 /* README.md */,
 				8AF54E822D824B7D009358CB /* SwiftMetal */,
 				8AF54E812D824B7D009358CB /* Products */,
 			);
@@ -109,6 +117,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AE90ED52DA520DB00242CE4 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
