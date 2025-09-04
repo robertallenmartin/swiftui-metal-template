@@ -1,8 +1,10 @@
 /*
 
  Template to add a MetalKit view with compute, vertex, and fragment shaders to a SwiftUI app.
- App listens for changes to thermal activity. Any thermal state other than .nominal will pause the
- metalkit view and set the draw call to manual. A .nominal state will set the MTKView to draw continuously.
+ App listens for changes to thermal activity.
+ Any thermal state other than .nominal will pause the
+ metalkit view and set the draw call to manual.
+ A .nominal state will set the MTKView to draw continuously.
  
  */
 
