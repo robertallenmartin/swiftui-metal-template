@@ -38,7 +38,7 @@ struct ContentView: View {
             .persistentSystemOverlays(.hidden)
             .statusBar(hidden: true)
             .gesture(singleTap)
-            .onChange(of: thermalMonitor.thermalState) { _ in
+            .onChange(of: thermalMonitor.thermalState) { _, _ in
                 MetalKitView.updateRendering(for: thermalMonitor.thermalState)
             }
             
